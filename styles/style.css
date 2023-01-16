@@ -53,9 +53,11 @@ span{
     color: blueviolet;
 }
 
+#principal p{
+    max-width: 500px;
+}   
 p{
     line-height: 20px;
-    max-width: 500px;
     font-family: poppinslight;
 }
 
@@ -124,6 +126,19 @@ form [type="submit"]:hover{
     font-size: 2rem;
 }
 
+.grid-contato{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-contato h3{
+    font-size: 2rem;
+}
+#whatsapp{
+    color: #34af23;
+}
+
 #servicos{
     background-image: url('../components/images/confetti-doodles.svg');
     background-size: cover;
@@ -135,7 +150,11 @@ form [type="submit"]:hover{
     background-image: url('../components/images/subtle-prism.svg');
     background-size: cover;
     background-position: center center;
-    color: white;
+    color: black;
+}
+
+#sobre p{
+    max-width: 1200px;
 }
 
 #contato{
