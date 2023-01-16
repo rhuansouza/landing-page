@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    /*centralizar pagina*/
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li{
+    /*transforma a lista em row*/
+    display: inline-block;
+    margin: 20px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    font-weight: 200;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: black;
+    
+}
+
+span{
+    color: blueviolet;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 580px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.5s all;
+    
+}
+
+#inscreva-btn{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor:pointer
+}
+
+.secao{
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid h3{
+    font-size: 2rem;
+}
+
+#servicos{
+    background-image: url('../components/images/confetti-doodles.svg');
+    color: black;
+}
