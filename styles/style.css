@@ -130,3 +130,17 @@ form [type="submit"]:hover{
     background-position: center center;
     color: black;
 }
+
+#sobre{
+    background-image: url('../components/images/subtle-prism.svg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+#contato{
+    background-image: url('../components/images/sun-tornado.svg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
